@@ -74,8 +74,9 @@ footer {
   gap: 10px;
 }
 
-.container {
-  display: flex;
+.container {  
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .container div {
